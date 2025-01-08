@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8f5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center; /* Menengahkan teks di dalam elemen <h2> */
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e8f5e9;
+}
+
+main {
+  flex: 1;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box; /* Pastikan padding dihitung dalam lebar total */
+}
+
+form label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Pastikan padding dihitung dalam lebar total */
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4caf50;
+  color: white;
+  margin-top: auto;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center both image and text horizontally */
+  gap: 30px;
+  text-align: left;
+  max-width: 1200px; /* Max width to prevent stretching on large screens */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-img {
+  width: 370px;
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  text-align: center;
+}
+
+section p {
+  margin-right: 50px; /* Jarak kanan paragraf */
+}
+
+.about-text p,
+.about-text ul {
+  text-align: justify; /* Rata kanan kiri untuk teks dan list */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Jarak antar baris yang seragam */
+}
+
+.about-text ul {
+  list-style-position: inside; /* Menyelaraskan dengan teks */
+}
+
+.about-text li {
+  margin-bottom: 10px; /* Jarak antar item list */
+}
+
+.images-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.image {
+  width: 18%;
+  border-radius: 10px;
+}
